@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Assignment 4</title>
+      <style>
+      p{
+        color:#A865C9;
+      }
+
+      .border-para{
+        border: 2px solid #EE0A0A;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      .background-gray{
+        background-color: #777;
+      }
+
+      .background-black{
+        background-color: #222;
+      }
+
+      td {
+        text-align: center;
+      }
+      </style>
+      </head>
+      <body>
+        <h1>Assignment 4</h1>
+        <div>
+<h2>Challenge 2: Build a Chessboard</h2>
+
+    <table style="outline: solid #0000FF;">
+
+
+  <tr>
+
+    <td style="height:50px;width:50px;font-size:50px;">&#9820;</td>
+    <td style="background-color:gray;height:50px:width:50px;font-size:50px;">&#9822;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9821;</td>
+    <td style="background-color:gray;height:50px:width:50px;font-size:50px;">&#9819;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9818;</td>
+    <td style="background-color:gray;height:50px:width:50px;font-size:50px;">&#9821;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9822;</td>
+    <td style="background-color:gray;height:50px:width:50px;font-size:50px;">&#9820;</td>
+  </tr>
+  <tr>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9823;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9823;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9823;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9823;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9823;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9823;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9823;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9823;</td>
+  </tr>
+  <tr>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+
+  </tr>
+  <tr>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+  </tr>
+  <tr>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+    <td style="height:50px;width:50px;font-size:50px;"></td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;"></td>
+
+  </tr>
+  <tr>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9817;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9817;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9817;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9817;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9817;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9817;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9817;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9817;</td>
+
+
+  </tr>
+  <tr>
+    <td style="height:50px;width:50px;font-size:50px;">&#9814;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9816;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9815;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9813;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9812;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9815;</td>
+    <td style="height:50px;width:50px;font-size:50px;">&#9816;</td>
+    <td style="background-color:gray;height:50px;width:50px;font-size:50px;">&#9814;</td>
+
+  </tr>
+
+</table>
+
+
+
+        </div>
+
+        <div>
+          <h2>Challenge 3: Create a Form</h2>
+          <form>
+           <button> QUEST FOR THE HOLY GRAIL!!! </button>
+           <p></p>
+           <p>What is your name?</p>
+           <input type= "text">
+           <p>What is your quest?</p>
+           <input type= "text">
+           <p>What is your favorite color?</p>
+           <p><input type= "checkbox">Blue</p>
+           <p><input type= "checkbox">NO! YELLOW!!!! AUUUUUGHHHHH!!!!!!</p>
+           <input type= "submit">
+          </form>
+        </div>
+        <div style="background-color:black;">
+
+          <h2 style="color:white;">Challenge 4: A Google Search Page</h2>
+
+          <p style="color:gray; font-size:15px">About 3,400,000,000 results (0.86 seconds)</p>
+          <p style="padding-bottom:2px;"> </p>
+
+
+          <p style="color:#D3D3D3; font-size:15px;line-height: 6px;">http://www.colorado.edu <span style="color:gray;font-size:15px;"> > atlas <strong>⋮</strong> </span></p>
+          <a style="color:#A865C9;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQFnoECBIQAQ&url=https%3A%2F%2Fwww.colorado.edu%2Fatlas%2F&usg=AOvVaw2QDab3GQKMB0iRKfR0JSsY">ATLAS Institute | University of Colorado Boulder</a>
+          <p style="color:#D3D3D3; font-size:15px"><strong>ATLAS</strong> is an interdisciplinary <strong>institute</strong> for radical creativity and invention. We transform<br> ingenious ideas into reality through research, ...</p>
+          <p style="padding-bottom:2px;"> </p>
+
+          <a style="padding-right:42px;color:#446CCF;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQjBB6BAgREAE&url=https%3A%2F%2Fwww.colorado.edu%2Fatlas%2Facademics%2Fgrad&usg=AOvVaw29d-cWmbO2pG6Kcu87HwVZ">Graduate Degrees in Creative ...</a>  <a style="color:#A865C9;"
+          href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQjBB6BAgOEAE&url=https%3A%2F%2Fwww.colorado.edu%2Fatlas%2Fabout-atlas&usg=AOvVaw3yp63UPhu-q56yXxYNxK-a">About</a>
+          <p style="color:#D3D3D3; font-size:15px">Radically interdisciplinary, <span style= word-spacing:35px;>ATLAS ATLAS</span> is an interdisciplinary <br> graduate programs nurture <span style= word-spacing:75px;>... institute</span> for radical creativity and ...</p>
+          <p style="padding-bottom:2px;"> </p>
+
+          <a style="padding-right:170px;color:#A865C9;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQjBB6BAgQEAE&url=https%3A%2F%2Fwww.colorado.edu%2Fatlas%2Facademics&usg=AOvVaw21v_G1wmmDEIJWM61H-mMe">Academics</a>  <a style="color:#A865C9;"
+          href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjTjZKrxef1AhVCGjQIHWsdBh4QFnoECAoQAQ&url=https%3A%2F%2Fwww.colorado.edu%2Fatlas%2Facademics%2Fundergraduate&usg=AOvVaw050ov3lYelZoT7WVz-_-Ic">Undergraduate Programs</a>
+          <p style="color:#D3D3D3; font-size:15px">Granted through the College <span style= word-spacing:50px;>of Awarded</span> through the College of <br> Engineering and Applied <span style= word-spacing:75px;>... Engineering</span> and Applied ...</p>
+
+
+          <a style="padding-right:190px;color:#A865C9;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQjBB6BAgPEAE&url=https%3A%2F%2Fwww.colorado.edu%2Fatlas%2Ffaculty&usg=AOvVaw0F5Tn2NOJE0gbm0JF--P7E">Faculty</a>  <a style="color:#446CCF;"
+          href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjvyaKbx-f1AhXnJzQIHV-YCUYQFnoECA0QAQ&url=https%3A%2F%2Fwww.colorado.edu%2Fatlas%2Fresearch-creative&usg=AOvVaw0Ntci3pYvHzXP83ORoTbag">Research + Creative</a>
+          <p style="color:#D3D3D3; font-size:15px">Lecturer, co-chair Board <span style= word-spacing:75px;>of Check</span> out ATLAS Research <br> Advisors·DESIGN, AR/VR<span style= word-spacing:60px;>... Showcase</span> 2020.</p>
+
+          <a style="color:#446CCF; font-size: 15px;" href="https://www.google.com/search?q=ATLAS+institute+site:colorado.edu&client=safari&rls=en&sa=X&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQrAN6BAgMEAE&biw=1324&bih=723&dpr=2">More results from Colorado.edu >></a>
+          <p style="padding-bottom:2px;"> </p>
+
+          <p style="color:#D3D3D3; font-size:15px;line-height: 6px;">http://www.colorado.edu <span style="color:gray;font-size:15px;"> > innovate > atlas-institute <strong>⋮</strong> </span></p>
+          <a style="color:#446CCF;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQFnoECAgQAQ&url=https%3A%2F%2Fwww.colorado.edu%2Finnovate%2Fatlas-institute&usg=AOvVaw3BWcdFH-v3xGdoLvWYwVgW">ATLAS Institute | Innovation & Entrepreneurship - University of ...</a>
+          <p style="color:#D3D3D3; font-size:15px">Resource that sponsors diverse interdisciplinary academic and research programs, challenging<br> community members to explore, innovate, create and design well ...</p>
+          <p style="padding-bottom:2px;"> </p>
+
+          <p style="color:#D3D3D3; font-size:15px;line-height: 6px;">http://www.linkedin.com <span style="color:gray;font-size:15px;"> > school > atlas-cu-boulder <strong>⋮</strong> </span></p>
+          <a style="color:#446CCF;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQFnoECD8QAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fatlas-cu-boulder%2F&usg=AOvVaw1x0D_c_sWRnkbQFKYSO3f7">ATLAS Institute at CU Boulder Employees, Location, Alumni</a>
+          <p style="color:#D3D3D3; font-size:15px">ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas<br> become reality. · <strong>ATLAS Institute</strong> at CU Boulder. View all open ...</p>
+          <p style="padding-bottom:2px;"> </p>
+
+          <p style="color:#D3D3D3; font-size:15px;line-height: 6px;">http://www.typemoon.fandom.com <span style="color:gray;font-size:15px;"> > wiki > Atlas <strong>⋮</strong> </span></p>
+          <a style="color:#446CCF;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQFnoECEIQAQ&url=https%3A%2F%2Ftypemoon.fandom.com%2Fwiki%2FAtlas&usg=AOvVaw3frVamAvPeCN8g8dcMcs3H">Atlas | TYPE-MOON Wiki | Fandom</a>
+          <p style="color:#D3D3D3; font-size:15px">It is an <strong>institute</strong> focused on the study and development of alchemy, but its members broke off<br> from the mainstream modern practice of alchemy that originated in ...</p>
+          <a style="color:#446CCF; font-size: 15px;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQ0gIoAHoECEEQAQ&url=https%3A%2F%2Ftypemoon.fandom.com%2Fwiki%2FAtlas%23External_Relationships&usg=AOvVaw3frVamAvPeCN8g8dcMcs3H">External Relationships · </a>
+          <a style="color:#446CCF; font-size: 15px;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQ0gIoAXoECEEQAg&url=https%3A%2F%2Ftypemoon.fandom.com%2Fwiki%2FAtlas%23Alchemist_of_Atlas&usg=AOvVaw3frVamAvPeCN8g8dcMcs3H">Alchemists of Atlas · </a>
+          <a style="color:#446CCF; font-size: 15px;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQ0gIoAnoECEEQAw&url=https%3A%2F%2Ftypemoon.fandom.com%2Fwiki%2FAtlas%23Activities&usg=AOvVaw3frVamAvPeCN8g8dcMcs3H">Activities · </a>
+          <a style="color:#446CCF; font-size: 15px;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2-t21q-f1AhWnDzQIHUMGBEMQ0gIoA3oECEEQBA&url=https%3A%2F%2Ftypemoon.fandom.com%2Fwiki%2FAtlas%23Headquarters&usg=AOvVaw3frVamAvPeCN8g8dcMcs3H">Headquarters</a>
+          <p style="padding-bottom:2px;"> </p>
+
+          <p style="color:#D3D3D3; font-size:15px;line-height: 6px;">http://www.internationalaffairshouse.org <span style="color:gray;font-size:15px;"> <strong>⋮</strong> </span></p>
+          <a style="color:#446CCF;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwim7Kma6uf1AhVqFTQIHRl3AkkQFnoECD8QAQ&url=https%3A%2F%2Fwww.internationalaffairshouse.org%2F&usg=AOvVaw2Cqcy0BE165gZK4ylNM2DY">Atlas Institute for International Affairs: Home</a>
+          <p style="color:#D3D3D3; font-size:15px"><strong>Atlas Institute</strong> for International Affairs - The Harmony of Opposite Tensions. ...<strong>Atlas Institute.</strong><br> The World's Leading Open-Access Think-Tank and Publisher...</p>
+          <p style="padding-bottom:2px;"> </p>
+        </div>
+        <div>
+          <h2>Challenge 5: Accessibility Concerns</h2>
+          <p>I feel that challenges 2-4 all present accessibility issues due to being formated without alts. <br> Challenge 2, the chessboard is a replica of a board and cant actually function. It also does not have an alt description (and if it did, it would be incredibly complex due to the sheer number of parts and variations of a game). I sugest having certain set ups with certain names preprogramed in. Challenge 3 is inaccessable to those who may have vision issues due to the small font and lack of an alt (maybe an outloud reading option would be nice). Challenge 4 is inaccessable due to it not having alts either (same sugestion as challenge 3).</p>
+        </div>
+
+        </body>
+        </html>
