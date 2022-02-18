@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap');
+p{
+  color: #16302B;
+  font-family: palanquin;
+  text-align: center;
+}
+
+#test-id-1{
+  color: purple;
+}
+
+.test-class{
+  text-shadow: 2px 2px red;
+}
+
+a:hover{
+  color: white;
+}
+
+h1{
+  font-style: italic;
+  font-size: 300%;
+  color: #16302B;
+}
