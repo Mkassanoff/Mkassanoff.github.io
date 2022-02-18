@@ -26,8 +26,22 @@ a:visited{
   color: #807182;
 }
 
+button:default{
+  color:#16302B;
+  border-radius: 20px;
+
+}
+button:hover{
+  color:#C4C4C4;
+  border-radius: 20px;
+}
+
+button:visited{
+  color:#807182;
+  border-radius: 20px;
+}
+
 h1{
-  color: #16302B;
   font-family: amiri;
   font-size: 300%;
   color: #16302B;
