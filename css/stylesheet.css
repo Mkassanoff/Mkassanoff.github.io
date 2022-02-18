@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 p{
   color: #16302B;
-  font-family: palanquin;
+  font-family: kaisei decol;
   text-align: center;
 }
 
@@ -13,12 +14,21 @@ p{
   text-shadow: 2px 2px red;
 }
 
+a:link{
+  color: #1F7C4A;
+}
+
 a:hover{
-  color: white;
+  color: #44A340;
+}
+
+a:visited{
+  color: #807182;
 }
 
 h1{
-  font-style: italic;
+  color: #16302B;
+  font-family: amiri;
   font-size: 300%;
   color: #16302B;
 }
