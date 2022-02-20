@@ -4,7 +4,12 @@
 body{
   background-color: #DCE1DE;
 }
-
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 p{
   color: #16302B;
   font-family: kaisei decol;
@@ -49,6 +54,7 @@ hr {
 
 
 h1{
+  
   font-family: amiri;
   font-size: 300%;
   color: #16302B;
