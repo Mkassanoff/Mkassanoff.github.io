@@ -9,6 +9,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 20px;
 }
 p{
   color: #16302B;
@@ -30,20 +31,20 @@ a:hover{
 
 button {
   background-color: #16302B;
-  color: white;
+  color: #629460;
   border-radius: 20px;
 }
 
 button:active {
   background-color: #807182;
   border-radius: 20px;
-  color: black;
+  color: #DCE1DE;
 }
 
 button:hover {
-  background-color: #DCE1DE;
+  background-color: #C4C4C4;
   border-radius: 20px;
-  color: black;
+  color: #629460;
 }
 
 hr {
@@ -54,7 +55,7 @@ hr {
 
 
 h1{
-  
+
   font-family: amiri;
   font-size: 300%;
   color: #16302B;
