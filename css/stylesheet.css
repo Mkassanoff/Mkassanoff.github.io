@@ -18,12 +18,12 @@ a:link{
   color: #1F7C4A;
 }
 
-a:hover{
-  color: #44A340;
-}
-
 a:visited{
   color: #807182;
+}
+
+a:hover{
+  color: #44A340;
 }
 
 button:default{
@@ -31,13 +31,15 @@ button:default{
   border-radius: 20px;
 
 }
-button:hover{
-  color:#C4C4C4;
-  border-radius: 20px;
-}
+
 
 button:visited{
   color:#807182;
+  border-radius: 20px;
+}
+
+button:hover{
+  color:#C4C4C4;
   border-radius: 20px;
 }
 
