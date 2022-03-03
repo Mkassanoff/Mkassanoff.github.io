@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body{
+  background-color: #DCE1DE;
+}
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20px;
+}
+p{
+  color: #16302B;
+  font-family: kaisei decol;
+  text-align: center;
+}
+
+a:link{
+  color: #1F7C4A;
+}
+
+a:visited{
+  color: #807182;
+}
+
+a:hover{
+  color: #44A340;
+}
+
+button {
+  background-color: #16302B;
+  color: #629460;
+  border-radius: 20px;
+}
+
+button:active {
+  background-color: #807182;
+  border-radius: 20px;
+  color: #DCE1DE;
+}
+
+button:hover {
+  background-color: #C4C4C4;
+  border-radius: 20px;
+  color: #629460;
+}
+
+hr {
+  display: block; overflow: hidden; border-style: inset; border-width: 2px;
+ background-color: #807182;}
+ ul{
+   color: #629460;}
+
+
+h1{
+
+  font-family: amiri;
+  font-size: 300%;
+  color: #16302B;
+}
+h2{
+
+  font-family: amiri;
+  color: #16302B;
+}
