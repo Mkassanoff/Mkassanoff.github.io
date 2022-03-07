@@ -1,8 +1,45 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 
+
+@media screen and (min-width: 400px){
+
+
+
 body{
   background-color: #DCE1DE;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color:inherit;
+  padding: 20px;
+  gap:20px;
+
+}
+.nav{
+  background-color: #807182;
+  border-radius: 10px;
+  height:25%;
+  grid-column: 4/ 7;
+  grid-row: 1 /1;
+}
+.lowLine{
+  background-color: #807182;
+  height:50%;
+  grid-column: 1/ 7;
+  grid-row: 6/7;
+}
+.sideLine
+{
+background-color: #807182;
+  height:50%;
+  grid-column: 1/ 7;
+  grid-row: 1/1;
+
 }
 .pic{
   display: block;
@@ -17,16 +54,22 @@ p{
   text-align: center;
 }
 
+a{
+  color: #CFE4D8;
+  text-decoration: underline;
+  text-align: center;
+}
+
 a:link{
-  color: #1F7C4A;
+  color: #CFE4D8;
 }
 
 a:visited{
-  color: #807182;
+  color: #CFE4D8;
 }
 
 a:hover{
-  color: #44A340;
+  color: #CFE4D8;
 }
 
 button {
@@ -64,4 +107,112 @@ h2{
 
   font-family: amiri;
   color: #16302B;
+}
+h3{
+
+  font-family: amiri;
+  color: #16302B;
+}
+}
+@media screen and (max-width: 399px){
+  body{
+    background-color: #DCE1DE;
+  }
+
+  .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color:inherit;
+    padding: 20px;
+    gap:20px;
+
+  }
+  .nav{
+    background-color: #807182;
+    border-radius: 10px;
+    height:25%;
+    grid-column: 4/ 7;
+    grid-row: 1/1;
+  }
+  .lowLine{
+    background-color: #807182;
+    height:400%;
+    grid-column: 1/ 7;
+    grid-row: 6/7;
+  }
+  .sideLine
+{
+  background-color: #807182;
+    height:50%;
+    grid-column: 1/ 7;
+    grid-row: 1/1;
+
+}
+  .pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
+  }
+  p{
+    color: #16302B;
+    font-family: kaisei decol;
+    text-align: center;
+  }
+
+  a:link{
+    color: #CFE4D8;
+  }
+
+  a:visited{
+    color: #CFE4D8;
+  }
+
+  a:hover{
+    color: #CFE4D8;
+  }
+
+  button {
+    background-color: #16302B;
+    color: #629460;
+    border-radius: 20px;
+  }
+
+  button:active {
+    background-color: #807182;
+    border-radius: 20px;
+    color: #DCE1DE;
+  }
+
+  button:hover {
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    color: #629460;
+  }
+
+  hr {
+    display: block; overflow: hidden; border-style: inset; border-width: 2px;
+   background-color: #807182;}
+   ul{
+     color: #629460;}
+
+
+  h1{
+
+    font-family: amiri;
+    font-size: 300%;
+    color: #16302B;
+  }
+  h2{
+
+    font-family: amiri;
+    color: #16302B;
+  }
+  h3{
+
+    font-family: amiri;
+    color: #16302B;
+  }
 }
