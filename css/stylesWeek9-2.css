@@ -1,0 +1,9 @@
+.slide-in{
+  /*transition<property><duration><timing-function><delay>*/
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 1s;
+}
+.slide-in:hover{
+  font-size: 300%;
+}
