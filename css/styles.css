@@ -43,7 +43,7 @@ font-size: 200%;
 }
 .content{
   grid-column: 1/3;
-  grid-row: 2/6;
+  grid-row: 2/5;
 }
 /*.lowLine{
   background-color: #807182;
@@ -193,6 +193,7 @@ h3{
 
   }
   .content{
+  
     grid-column: 1/3;
     grid-row: 2/3;
   }
