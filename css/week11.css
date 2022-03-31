@@ -1,0 +1,17 @@
+h1 {font weight: 400;}
+strong{fontweight: 800;}
+
+button{
+  transition: all 1000ms ease-in-out;
+  font-size: 40px;
+}
+  .was-clicked{
+  color: purple;
+  padding 20px;
+  font-size: 100px;
+  }
+.was-clicked2{
+  color: blue;
+  font-size: 16px;
+  padding 20px;
+}
