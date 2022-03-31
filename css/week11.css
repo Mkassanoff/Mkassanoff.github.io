@@ -16,6 +16,8 @@ strong{font-weight: 800px;}
 button{
   transition: all 1000ms ease-in-out;
   font-size: 40px;
+  border-radius: 20px;
+    color: #629460;
 }
   .was-clicked{
   color: purple;
