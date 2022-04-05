@@ -1,5 +1,5 @@
 
-function getQuote() {
+async function getQuote() {
 console.log("quote button was clicked");
 try{
    const response = await fetch(endpoint);
@@ -10,7 +10,7 @@ try{
    const json = await response.json();
    console.log(json);
 } catch(err){
-  console.log(err);
+  console.log(err)
   alert('Failed');
 }
 }
