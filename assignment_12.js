@@ -9,8 +9,9 @@ try{
 
    const json = await response.json();
    console.log(json);
-   displayQuote(json.fact);
-} catch(err){
+   displayQuote(json.text);//fact
+}
+ catch(err){
   console.log(err)
   alert('Failed');
 }
@@ -21,7 +22,7 @@ function displayQuote(quote){
   quoteText.textContent = quote;
 }
 
-const endpoint = 'https://catfact.ninja/fact';
+const endpoint = 'https://uselessfacts.jsph.pl/random.json?language=en'; //'https://catfact.ninja/fact';
 
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
