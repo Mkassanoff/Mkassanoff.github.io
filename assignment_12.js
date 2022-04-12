@@ -1,6 +1,7 @@
 
 async function getQuote() {
 console.log("quote button was clicked");
+document.body.style.backgroundColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
 try{
    const response = await fetch(endpoint);
    if(!response.ok) {
