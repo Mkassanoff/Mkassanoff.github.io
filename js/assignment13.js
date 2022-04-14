@@ -18,15 +18,15 @@ randomize.addEventListener('click', result);
 
 function result() {
 
-  let xItem = math.randomValueFromArray(insertX);
-  let yItem = math.randomValueFromArray(insertY);
-  let zItem = math.randomValueFromArray(insertZ);
+  let xItem = randomValueFromArray(insertX);
+  let yItem = randomValueFromArray(insertY);
+  let zItem = randomValueFromArray(insertZ);
 
   let newStory = storyText;
 
-  newStory = newStory.replace(":insertx:", xItem);
-  newStory = newStory.replace(":inserty:", yItem);
-  newStory = newStory.replace(":insertz:", zItem);
+  newStory = newStory.replaceAll(":insertx:", xItem);
+  newStory = newStory.replaceAll(":inserty:", yItem);
+  newStory = newStory.replaceAll(":insertz:", zItem);
 
 
   if(customName.value !== '') {
@@ -36,13 +36,15 @@ function result() {
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
+    const weight = Math.round(300/14);
     const temperature =  Math.round(94);
 
-    newstory = newStory.replace("300", weight/14);
-    newstory = newStory.replace("94", (temperature-32)/(5/9));
+    newStory = newStory.replace("300", weight/14);
+    newStory = newStory.replace("94", (temperature-32)/(5/9));
+    newStory = newStory.replace("fahrenheit", "centigrade");
+    newStory = newStory.replace("pounds", "stones");
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 }
