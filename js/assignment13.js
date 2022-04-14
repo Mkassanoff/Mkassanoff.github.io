@@ -31,7 +31,7 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-    customName = newStory.replace("Bob", name);
+    newStory = newStory.replace("Bob", name);
 
   }
 
@@ -39,6 +39,8 @@ function result() {
     const weight = Math.round(300);
     const temperature =  Math.round(94);
 
+    newstory = newStory.replace("300", weight/14);
+    newstory = newStory.replace("94", (temperature-32)/(5/9));
   }
 
   story.textContent = ;
