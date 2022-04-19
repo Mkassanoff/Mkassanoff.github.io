@@ -61,9 +61,9 @@ console.log(myCar['make']);
     }
   ]
 }
-Function populateHeader(x){
-Const header = document.querySelector('header');
-Const myH1 = document.querySelector('h1');
+function populateHeader(x){
+const header = document.querySelector('header');
+const myH1 = document.querySelector('h1');
 
 myH1.textContent= x['squadName'];
 header.append.Child(myH1);
