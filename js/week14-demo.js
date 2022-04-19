@@ -17,4 +17,5 @@ const mySecondCar = {
 
 }
 
-console.log(mySecondCar.make);
+console.log(mySecondCar.drive);
+console.log(myCar['make']);
