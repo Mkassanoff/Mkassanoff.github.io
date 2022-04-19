@@ -70,7 +70,7 @@ header.append.Child(myH1);
 
 const myPara = document.createElement('p');
 
-myPara.textContent = x['hometown'] x['formed'];
+myPara.textContent = 'hometown': ${x['hometown']} //Formed: ${x['formed']};
 header.append.Child(myPara);
 }
 populateHeader(superheros);
