@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body{
+  background-color: #C4C4C4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.box{
+  grid-column: 3/ 5;
+  grid-row: 2 /5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  background-color:#CFE4D8;
+  padding: 20px;
+  gap:20px;
