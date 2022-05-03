@@ -26,6 +26,83 @@
 
 function roll() {
   //1st class
+  var diePicker= document.getElementById('die-select')
+  var selectedDie = diePicker.value;
+  console.log(selectedDie);
+
+  switch (selectedDie) {
+    case "d100":
+  document.getElementById("div100").classList.remove('hidden');
+  document.getElementById("div20").classList.add('hidden');
+  document.getElementById("div12").classList.add('hidden');
+  document.getElementById("div10").classList.add('hidden');
+  document.getElementById("div8").classList.add('hidden');
+  document.getElementById("div6").classList.add('hidden');
+  document.getElementById("div4").classList.add('hidden');
+    break;
+
+    case "d20":
+    document.getElementById("div100").classList.add('hidden');
+    document.getElementById("div20").classList.remove('hidden');
+    document.getElementById("div12").classList.add('hidden');
+    document.getElementById("div10").classList.add('hidden');
+    document.getElementById("div8").classList.add('hidden');
+    document.getElementById("div6").classList.add('hidden');
+    document.getElementById("div4").classList.add('hidden');
+    break;
+    case "d12":
+    document.getElementById("div100").classList.add('hidden');
+    document.getElementById("div20").classList.add('hidden');
+    document.getElementById("div12").classList.remove('hidden');
+    document.getElementById("div10").classList.add('hidden');
+    document.getElementById("div8").classList.add('hidden');
+    document.getElementById("div6").classList.add('hidden');
+    document.getElementById("div4").classList.add('hidden');
+    break;
+    case "d10":
+    document.getElementById("div100").classList.add('hidden');
+    document.getElementById("div20").classList.add('hidden');
+    document.getElementById("div12").classList.add('hidden');
+    document.getElementById("div10").classList.remove('hidden');
+    document.getElementById("div8").classList.add('hidden');
+    document.getElementById("div6").classList.add('hidden');
+    document.getElementById("div4").classList.add('hidden');
+    break;
+    case "d8":
+    document.getElementById("div100").classList.add('hidden');
+    document.getElementById("div20").classList.add('hidden');
+    document.getElementById("div12").classList.add('hidden');
+    document.getElementById("div10").classList.add('hidden');
+    document.getElementById("div8").classList.remove('hidden');
+    document.getElementById("div6").classList.add('hidden');
+    document.getElementById("div4").classList.add('hidden');
+    break;
+    case "d6":
+    document.getElementById("div100").classList.add('hidden');
+    document.getElementById("div20").classList.add('hidden');
+    document.getElementById("div12").classList.add('hidden');
+    document.getElementById("div10").classList.add('hidden');
+    document.getElementById("div8").classList.add('hidden');
+    document.getElementById("div6").classList.remove('hidden');
+    document.getElementById("div4").classList.add('hidden');
+    break;
+    case "d4":
+    document.getElementById("div100").classList.add('hidden');
+    document.getElementById("div20").classList.add('hidden');
+    document.getElementById("div12").classList.add('hidden');
+    document.getElementById("div10").classList.add('hidden');
+    document.getElementById("div8").classList.add('hidden');
+    document.getElementById("div6").classList.add('hidden');
+    document.getElementById("div4").classList.remove('hidden');
+    break;
+
+
+  default:
+  break;
+
+  }
+
+
   var d100 = document.getElementsByClassName("die-val100");
   for (var i = 0; i < d100.length; i++) {
     let number = Math.floor(Math.random() * 100) + 1;
